@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+        <title>@ViewData["Titulo"] - My Razor App</title>
+        <link rel="stylesheet" href="~/css/site.css"> <asp-append-version="true">
+        <link rel="stylesheet" href="~/MyRazorApp.styles.css" /> <asp-append-version="true">
+</head>
+
+<body>
+<header>
+    <partial name="Shared/NavMenuPartial"/>
+</header>
+
+<main>
+    @RenderBody()
+</main>
+
+<footer>
+    2025 - Powered By Fundação Casa
+</footer>
+
+@RenderSection("scripts", false)
+</body>
+</html>

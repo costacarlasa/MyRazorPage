@@ -1,0 +1,27 @@
+﻿@page
+@model MyApp.Namespace.CategoriasModel
+@{
+    ViewData["Titulo"] = "Categorias";
+}
+
+<h1>Categorias</h1>
+    <table>
+        <thead>
+            <tr>
+                <td>ID</td>
+                <td>Título</td>
+                <td>Preço</td>
+            </tr>
+        </thead>
+
+        <tbody>
+        @foreach (var categoria in Model.Categorias)
+        {
+            <tr>
+                <td>@categoria.Id</td>
+                <td>@categoria.Titulo</td>
+                <td>@categoria.Preco.ToString("C", new CultureInfo("pt-BR"))</td>
+            </tr>
+        }
+        </tbody>
+    </table>
