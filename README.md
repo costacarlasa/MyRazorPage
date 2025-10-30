@@ -20,6 +20,9 @@ Este projeto foi construído com as seguintes tecnologias:
 * ![.NET 8](https://img.shields.io/badge/.NET-8-blueviolet)
 * ![C#](https://img.shields.io/badge/C%23-11-blue)
 * ![ASP.NET Core](https://img.shields.io/badge/ASP.NET%20Core-Razor%20Pages-blue)
+* ![Static Badge](https://img.shields.io/badge/HTML-blue)
+* ![Static Badge](https://img.shields.io/badge/CSS-blue)
+* ![Static Badge](https://img.shields.io/badge/JavaScript-blue)
 
 ---
 
@@ -47,3 +50,4 @@ cd MyRazorApp
 
 # 3. Restaure as dependências (o dotnet restore!)
 dotnet restore
+
